@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    padding-top: 30px;
+    background-color: #ffffff;
+  }
+  
+  #wrapper {
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+  }
+  
+  .main-content {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 40px 50px;
+  }
+  
+  .header {
+    border: 0px solid #000;
+    margin-bottom: 5px;
+  }
+  
+  .header img {
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    position: relative;
+    left: 40px;
+  }
+  
+  .input-1,
+  .input-2 {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  
+  .overlap-text {
+    position: relative;
+  }
+  
+  .overlap-text a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: -1px;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sub-content {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    border: 1px solid #e6e6e6;
+    padding: 20px 50px;
+    background-color: #fff;
+  }
+  
+  .s-part {
+    text-align: center;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+  
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+  
+  /* input:focus {
+      background-color: yellow;
+  } */
+  
+
+/* .footer{
+    margin-left: 50px ;
+    margin-right: 50px ;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 0; /* Add padding for better appearance */
+}
+
+.list{
+    /* width: 80%; */
+    padding-right: 20%;
+    padding-left: 20%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footerbarList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerbarListItem {
+    margin-top: 5px;
+    margin-left: 20px;
+    list-style: none;
+    color: rgb(151, 151, 151) ;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.info{
+    color: rgb(151, 151, 151) ;
+    padding-top: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    /* width: 50%; */
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
